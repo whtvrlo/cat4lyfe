@@ -1,13 +1,122 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,800&display=swap");
+
+h1 {
+  display: flex;
+  align-content: center;
+  justify-content: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#subtitle {
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+}
+
+* {
+  font-family: "Kanit", sans-serif;
+  margin: 0;
+  color: #333;
+  background-color: rgba(255, 255, 255, 0.584);
+}
+
+.logo {
+  font-size: 2rem;
+  margin-left: -200px;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+  padding-top: 40px;
+}
+
+.navbar h1 {
+  color: rgb(86, 27, 249);
+  padding: 20px;
+  /* text-decoration: underline; */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: rgb(249, 112, 27);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* cat cards  */
+img {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.IMG-wrapper {
+  display: flex;
+  padding-top: 4mm;
+}
+
+.cat-preview {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.cat-preview:hover {
+  box-shadow: 1px 3px 5px rgb(201, 173, 173);
+  padding: 10px 16px;
+  margin: 20px 0;
+}
+
+.cat-preview h2 {
+  font-size: 20px;
+  color: rgb(255, 0, 68);
+  margin-bottom: 6px;
+}
+
+.cat-preview a {
+  text-decoration: none;
+}
+
+.warning {
+  color: rgb(116, 116, 116);
+  font-style: italic;
+}
+
+/*_______________________________*/
+
+button {
+  margin: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.buttonMoreCats {
+  display: flex;
+  justify-content: center;
 }
