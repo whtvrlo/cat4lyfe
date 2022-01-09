@@ -1,7 +1,5 @@
-import { Link } from "react-router-dom"; 
 import faker from 'faker' ;
-import { useState } from "react";
-import useFetch from "./useFetch";
+
 
 
 // const fakeDataHandler = (fakeData) => {
@@ -49,7 +47,7 @@ const CatList = ({cats, title, handleAddBasket}) => {
 
                     <h2>{ cat.title } </h2>
                     <p>Name: {faker.name.firstName()} </p>
-                    <p>Location:  </p>
+                    <p>Location: {faker.address.cityName()}  </p>
                     <p> Price: £{faker.commerce.price()/4} </p>
                     <p>Id: {cat.id}</p>
                     <div className="IMG-wrapper"><img src={cat.url} /></div>

@@ -5,7 +5,7 @@ import faker from 'faker' ;
 
 const Home = () => {
 
-    const { data: cats , isPending, error } = useFetch('https://api.thecatapi.com/v1/images/search?limit=6&page=10&order=Desc') //                                     "data:"" meaning grab the data, but call it cats
+    const { data: cats , isPending, error } = useFetch('https://api.thecatapi.com/v1/images/search?limit=20&page=10&order=Desc') //                                     "data:"" meaning grab the data, but call it cats
     // const handleDelete = (id) => {
     //     const newCats = cats.filter(cat => cat.id !== id);
     //     setCats(newCats);

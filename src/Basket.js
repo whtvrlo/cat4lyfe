@@ -2,7 +2,7 @@
 const Basket = ({cats}) => { 
   return (
     <div>
-      <h1> Basket items: </h1>
+      <h1> Your basket is empty </h1>
 
     </div>
   )

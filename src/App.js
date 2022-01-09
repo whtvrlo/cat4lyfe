@@ -23,11 +23,11 @@ const App = () => {
         <h2 id="subtitle"> Cats from all over the world!</h2>
         <div className="content" >
             <Switch>
-              <Route exact path="/">
+              <Route exact path="/cats4lyfe">
                 <Home handleAddBasket={handleAddBasket}/>
               </Route>
               <Route path="/basket">
-                <Basket data={basket} />
+                <Basket data={`basket${0}`} />
 
               </Route>
               <Route path="/cats/:id">
