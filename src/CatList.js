@@ -1,4 +1,6 @@
 import faker from 'faker' ;
+import { useState } from 'react';
+import { useEffect } from 'react/cjs/react.development';
 
 
 
@@ -30,7 +32,7 @@ import faker from 'faker' ;
 // }
 
 
-
+// its already here and has been added to an onClick event...sweet
 const CatList = ({cats, title, handleAddBasket}) => {
     // (handleDelete defined in home componend, is a function used as prop)
     // const cats = props.cats        if cats, title written above in stead of props: you can destructure the props directly by putting them in curly brackets, and say what properties you want from them. 
@@ -45,14 +47,15 @@ const CatList = ({cats, title, handleAddBasket}) => {
                 <div className="cat-preview" key={cat.id}>
             
 
-                    <h2>{ cat.title } </h2>
-                    <p>Name: {faker.name.firstName()} </p>
+                    <h2>{ cat.name } </h2>
+                    {/* <p>Name: {faker.name.firstName()} </p>
                     <p>Location: {faker.address.cityName()}  </p>
-                    <p> Price: £{faker.commerce.price()/4} </p>
+                    <p> Price: £{faker.commerce.price()/4} </p> */}
+                    <p>cat price: £{cat.price}</p>
                     <p>Id: {cat.id}</p>
                     <div className="IMG-wrapper"><img src={cat.url} /></div>
-                    <button onClick={handleAddBasket}>add to basket</button>
-            </div>
+                    <button onClick={() => handleAddBasket(cat)}>add to basket</button>
+            </div> 
             ))}
      
         </div>
