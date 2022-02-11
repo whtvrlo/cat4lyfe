@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cats4lyfe/static/css/main.5e5e1a97.css",
-    "main.js": "/cats4lyfe/static/js/main.2bf9c7f5.js",
+    "main.css": "/cats4lyfe/static/css/main.0d42d4b4.css",
+    "main.js": "/cats4lyfe/static/js/main.48297604.js",
     "static/js/787.d0113530.chunk.js": "/cats4lyfe/static/js/787.d0113530.chunk.js",
     "index.html": "/cats4lyfe/index.html",
-    "main.5e5e1a97.css.map": "/cats4lyfe/static/css/main.5e5e1a97.css.map",
-    "main.2bf9c7f5.js.map": "/cats4lyfe/static/js/main.2bf9c7f5.js.map",
+    "main.0d42d4b4.css.map": "/cats4lyfe/static/css/main.0d42d4b4.css.map",
+    "main.48297604.js.map": "/cats4lyfe/static/js/main.48297604.js.map",
     "787.d0113530.chunk.js.map": "/cats4lyfe/static/js/787.d0113530.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e5e1a97.css",
-    "static/js/main.2bf9c7f5.js"
+    "static/css/main.0d42d4b4.css",
+    "static/js/main.48297604.js"
   ]
 }
