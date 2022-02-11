@@ -35,8 +35,8 @@ const fakeDataHandler = (fakeData) => {
     }
   }
 
-  // this is working now, you just need to pass your basket value through props
-  // if you want to delete you will have to send the setBasket function though right?
+  // pass your basket value through props
+  // if you want to delete you will have to send the setBasket function though
   const handleAddBasket = (cat) => {
     // first need to duplicated the array with the spread operator (...)
     let newBasket = [...basket]
